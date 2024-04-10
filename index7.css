@@ -1,0 +1,88 @@
+#q1-el {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+#q2-el {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+#q3-el {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+#q4-el {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+#q5-el {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+#q6-el {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+#q7-el {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+#q8-el {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+i {
+  color: white;
+  font-size: 32px;
+}
+#menu-el {
+  font-size: 42px;
+}
+li {
+  border: 2px solid white;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+img {
+  transition-duration: 120ms;
+}
+img:hover {
+  transform: translate(10px, 10px);
+  cursor: pointer;
+}
+#title-el {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 48%;
+  padding-right: 40px;
+}
+a {
+  color: black;
+  margin-left: 80%;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.button1 {
+  border-radius: 3px;
+  font-size: 15px;
+  font-family: "Dancing Script", cursive;
+  border: 2px solid white;
+  background: black;
+  color: white;
+  padding: 2px 5px;
+  margin-bottom: 5px;
+}
+body {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  border: 5px solid aliceblue;
+  height: 100%;
+  width: 98%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/Food\ cooking\ background\ on\ black\ stock\ photo\ containing\ basil\ and\ rosemary.jpeg)
+      center/cover fixed no-repeat;
+}

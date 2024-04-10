@@ -1,0 +1,91 @@
+button {
+  border-radius: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: white;
+}
+img {
+  border: 5px solid white;
+  border-radius: 100%;
+  width: 180px;
+  transition-duration: 100ms;
+}
+body {
+  border: 5px solid aliceblue;
+  height: 96vh;
+  width: 98%;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/background.jpeg") center/cover fixed no-repeat;
+}
+img:hover {
+  transform: translate(10px, 10px);
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  margin-top: 10%;
+  position: relative;
+  width: 30rem;
+  height: 12rem;
+  transform-style: preserve-3d;
+  animation: rotate 60s linear infinite;
+  margin-bottom: 100px;
+}
+@keyframes rotate {
+  0% {
+    transform: perspective(4000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(4000px) rotateY(360deg);
+  }
+}
+.slider span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 90deg)) translateZ(400px);
+}
+.slider span div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 10s;
+  transform-style: preserve-3d;
+}
+.services {
+  text-align: center;
+  padding: 15% 10%;
+  transform-style: preserve-3d;
+  color: white;
+}
+.dinner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/dinner.jpg") center/cover fixed no-repeat;
+}
+.breakfast {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/breakfast.jpg") center/cover fixed no-repeat;
+}
+.lunch {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/lunch.jpg") center/cover fixed no-repeat;
+}
+.snacks {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/snacks.jpg") center/cover fixed no-repeat;
+}

@@ -1,0 +1,39 @@
+body {
+  border: 5px solid aliceblue;
+  height: 96vh;
+  width: 98%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(/images/backdrop.jpg) center/cover fixed no-repeat;
+  font-family: "Dancing Script", cursive;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+p {
+  font-size: 30px;
+  margin-left: 40px;
+}
+i {
+  margin-left: 40px;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-top: 120px;
+  margin-left: 40px;
+}
+button {
+  cursor: pointer;
+  color: white;
+  border: 3px solid white;
+  background-color: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-left: 40px;
+  border-radius: 10px;
+  padding: 7px;
+}
